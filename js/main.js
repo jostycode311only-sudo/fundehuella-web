@@ -34,7 +34,7 @@ jQuery(document).ready(function($) {
     speed: 400
   });
 
-  // Mobile Navigation
+  // Parte de la animación de la navegación en moviles 
   if ($('#nav-menu-container').length) {
     var $mobile_nav = $('#nav-menu-container').clone().prop({
       id: 'mobile-nav'
