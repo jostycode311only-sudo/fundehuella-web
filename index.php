@@ -1,344 +1,266 @@
 <!DOCTYPE html>
-
 <html lang="es">
-<?php
-$informeGestion=true;
-?>
+  <head>
+    <meta charset="UTF8">
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>FUNDACION HUELLA PARA EL FUTURO "FUNDEHUELLA"</title>
-  <meta name="description" content="Free Bootstrap Theme by BootstrapMade.com">
-  <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
+    <!-- Cambio de Bootstrap 3 a 5, línea obligatoria para mantener el diseño responsivo"-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FundeHuella - Sitio Oficial </title>
 
-  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Candal">
-  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <!-- Template Main CSS File -->
-  <!-- <link href="assets/css/style.css" rel="stylesheet"> -->
-  <!-- =======================================================
-    Theme Name: Medilab
-    Theme URL: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/
-    Author: BootstrapMade.com
-    Author URL: https://bootstrapmade.com
-  ======================================================= -->
-</head>
-
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
-  <!--banner-->
-  <section id="banner" class="banner">
-    <div class="bg-color">
-      <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-          <div class="col-md-12">
-            <!-- 1. ENCABEZADO Y BOTÓN MÓVIL (Con los atributos de accesibilidad) -->
-             <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false" aria-label="Desplegar menú">
-                <span class="sr-only">Menú</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              
-              <!-- LOGO RESPONSIVO -->
-               <a class="navbar-brand" href="index.php" style="display: flex; align-items: center; padding: 5px 15px; height: auto;">
-                <img src="img/fundehuellalogo.png" alt="Logo Fundehuella" style="height: 45px; width: auto; margin-right: 10px;">
-                <span class="white" style="font-size: 13px; font-weight: bold; line-height: 1.2; margin: 0;">
-                  FUNDACIÓN HUELLA PARA EL FUTURO <br> "FUNDEHUELLA"
-                </span>
-              </a>
-            </div>
-            <!-- 2. CONTENEDOR COLAPSABLE MÓVIL (EL PUENTE QUE FALTABA) -->
-             <!-- Es VITAL que este div tenga el id="myNavbar" y la clase "collapse navbar-collapse" -->
-              <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav navbar-right" style="margin-top: 10px;">
-                  <!-- Aquí están tus enlaces tal cual los tenías -->
-                   <li><a href="#about">Nosotros</a></li>
-                   <li><a href="#documentos">ESAL</a></li>
-                   <li><a href="#contact">Contacto</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </nav>
-          <div class="container">
-            <div class="row">
-              <div class="banner-info">
-                <div class="banner-text text-center">
-              <h1 class="white">Bienvenidos!!</h1>
-              <p>FUNDACION HUELLA PARA EL FUTURO "FUNDEHUELLA"</p>
-              <a href="#contact" class="btn btn-appoint">Contactenos</a>
-            </div>
-            <div class="overlay-detail text-center">
-              <a href="#service"><i class="fa fa-angle-down"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--/ banner-->
-  <!--about-->
-  <section id="about" class="section-padding">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3 col-sm-4 col-xs-12">
-          <div class="section-title">
-            <h2 class="head-title lg-line">Nosotros</h2>
-            <hr class="botm-line">
-            <p class="sec-para"> Fundación Huella para el futuro es una entidad privada sin animo de lucro, creada en el año 2007, con sede principal en Sogamoso– Boyacá. Dedicada a desarrollar programas especiales en pro de los sectores mas vulnerables de la población, para promover la construcción de una sociedad mas digna y más humana.</p>
-          </div>
-        </div>
-        <div class="col-md-9 col-sm-8 col-xs-12">
-          <div style="visibility: visible;" class="col-sm-9 more-features-box">
-            <div class="more-features-box-text">
-              <div class="more-features-box-text-icon"> <i class="fa fa-angle-right" aria-hidden="true"></i> </div>
-              <div class="more-features-box-text-description">
-                <h3>Misión</h3>
-                <p> Promover el desarrollo social de nuestro país por medio de acciones y programas que propicien el mejoramiento de la calidad de vida de las personas más vulnerables, a través de la administración de la administración de recursos privados y públicos nacionales e internacionales con quien trabajamos en alianza.</p>
-              </div>
-            </div>
-            <div class="more-features-box-text">
-              <div class="more-features-box-text-icon"> <i class="fa fa-angle-right" aria-hidden="true"></i> </div>
-              <div class="more-features-box-text-description">
-                <h3>Visión</h3>
-                <p>Posicionarnos en el 2025 como una organización líder en el desarrollo de programas y proyectos innovadores y en la promoción de procesos sostenibles con impacto positivo en la comunidad en los que el individuo sea agente de su propio desarrollo y el cambio social que requiere nuestro país.</p>
-              </div>
-            </div>
-			<div class="more-features-box-text">
-              <div class="more-features-box-text-icon"> <i class="fa fa-angle-right" aria-hidden="true"></i> </div>
-              <div class="more-features-box-text-description">
-                <h3>Propositos</h3>
-                <p>Diseñar y desarrollar programas y proyectos acordes a las necesidades de las diferentes poblaciones,que tendrán propósitos educativos, sociales, científicos, culturales, agrícolas, deportivos y en cualquier otro campo que cumpla con la premisa de ser siempre en beneficio de los sectores menos favorecidos de la comunidad.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--/ about-->
-  
-  
-   <!-- Section: documentos -->
-  <section id="documentos" class="section-padding ">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 col-sm-12">
-          <h2 class="ser-title">Documentos ESAL</h2>
-          <hr class="botm-line">
-        </div>
-      </div>
-    </div>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-2 col-lg-offset-5">
-          <hr class="marginbot-50">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <div class="wow bounceInUp" data-wow-delay="0.2s">
-            <div class="container-fluid">
-              <?php $link=array();?>
-              <div class="row content hidden-xs">
-                <div class="col-sm-4 sidenav">
-                  <h2><!--Nombre de la Entidad--></h2>
-                  <ul class="nav nav-tabs nav-pills nav-stacked">
-                    <li class="<?php echo ($informeGestion?'active':'ocultarF');?>"><a id="tabSect1" data-toggle="tab" href="#section1">Informe de Gestión</a></li>
-                    <li class="<?php echo (!$informeGestion?'active':'');?>"><a id="tabSect2" data-toggle="tab" href="#section2">Estados Financieros de la Entidad</a></li>
-                    <li><a id="tabSect3" data-toggle="tab" href="#section3">Certificación de Cumplimiento en el Año Gravable</a></li>
-                    <li><a id="tabSect4" data-toggle="tab" href="#section4">Copia de la Escritura Pública, Documento Privado o Acta de Constitución</a></li>
-                    <li><a id="tabSect5" data-toggle="tab" href="#section5">Certificado de Existencia y Representación Legal</a></li>
-                    <li><a id="tabSect6" data-toggle="tab" href="#section6">Acta de Asamblea de Autorización para Continuar en el Régimen Tributario Especial</a></li>
-                    <li><a id="tabSect7" data-toggle="tab" href="#section7">Estatutos de la Entidad</a></li>
-                    <li><a id="tabSect8" data-toggle="tab" href="#section8">Certificación de Antecedentes Judiciales  y Declaración de Caducidad de Contratos Estatales</a></li>
-                    <li><a id="tabSect9" data-toggle="tab" href="#section9">Acta de Asamblea Indicando el Estado de las Asignaciones Permanentes de los Años Gravables Anteriores</a></li>
-                    <li><a id="tabSect10" data-toggle="tab" href="#section10">Acta de la Asamblea General de Aprobaciones de la Distribución del Beneficio Neto o Excedente del Respectivo Año Gravable</a></li>
-                  </ul>
-                  <br></div>
-                  <div class="hidden-xs">
-                    <br/>
-                  </div>
-                  <div class="col-xs-12 col-sm-8">
-                    <div class="tab-content">
-                      <?php
-                      $num = 1;
-                      $listaArch =[];
-                      $directorio = opendir("esal/doc/"); //ruta actual
-                      while ($archivo = readdir($directorio)) { //obtenemos un archivo y luego otro sucesivamente
-                      if (!is_dir($archivo)) {//verificamos si no un directorio
-                         array_push($listaArch,$archivo);
-                        }
-                      } 
-                      sort($listaArch);
-                      $i=0;
-                      $a=array(1,2,3,4,5,6,7,8,9,10);
-                      while ($i < count($listaArch)) { //obtenemos un archivo y luego otro sucesivamente
-                      $archivo = $listaArch[$i];
-                      if (!is_dir($archivo)) {//verificamos si no un directorio
-                      $id= intval(substr($archivo, 0, 2));
-                      echo '<div id="section' . $id . '" class="tab-pane fade '.(($informeGestion && $id==1)||(!$informeGestion && $id==2)?' in active':'').'">';
-                      echo '  <div class="row">';
-                      echo utf8_encode('      <embed src="esal/doc/' . $archivo . '" type="application/pdf" class="col-xs-12 col-sm-12"></embed>' . "<br />");
-                      echo '  </div>';
-                      echo '</div>';
-                      unset($a[$id-1]);
-                      $link[$id]='esal/doc/' . $archivo;
-                        } 
-                      $i++;
-                      }
-                      foreach($a as $id){
-                        echo '<div id="section' . $id . '" class="tab-pane fade '.(($informeGestion && $id==1)||(!$informeGestion && $id==2)?' in active':'').'">';
-                        echo '  <div class="row">';
-                        echo 'Pendiente';
-                        echo '  </div>';
-                        echo '</div>';
-                        $link[$id]="#";
-                        }
-                        ?>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="visible-xs">
-                      <div class="col-sm-4 sidenav">
-                        <h2><!--Nombre de la Entidad--></h2>
-                        <ul class="nav nav-tabs nav-pills nav-stacked" style="border: 0px;">
-                          <li class="<?php echo ($informeGestion?'':'ocultarF');?>"><a href="<?php echo $link[1];?>">Informe de Gestión</a></li>
-                          <li><a href="<?php echo $link[2];?>">Estados Financieros de la Entidad</a></li>
-                          <li><a href="<?php echo $link[3];?>">Certificación de Cumplimiento en el Año Gravable</a></li>
-                          <li><a href="<?php echo $link[4];?>">Copia de la Escritura Pública, Documento Privado o Acta de Constitución</a></li>
-                          <li><a href="<?php echo $link[5];?>">Certificado de Existencia y Representación Legal</a></li>
-                          <li><a href="<?php echo $link[6];?>">Acta de Asamblea de Autorización para Continuar en el Régimen Tributario Especial</a></li>
-                          <li><a href="<?php echo $link[7];?>">Estatutos de la Entidad</a></li>
-                          <li><a href="<?php echo $link[8];?>">Certificación de Antecedentes Judiciales  y Declaración de Caducidad de Contratos Estatales</a></li>
-                          <li><a href="<?php echo $link[9];?>">Acta de Asamblea Indicando el Estado de las Asignaciones Permanentes de los Años Gravables Anteriores</a></li>
-                          <li><a href="<?php echo $link[10];?>">Acta de la Asamblea General de Aprobaciones de la Distribución del Beneficio Neto o Excedente del Respectivo Año Gravable</a></li>
-                        </ul>
-                        <br>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        
-        <!-- /Section: documentos -->
-         <!--contact-->
-         <section id="contact" class="section-padding">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <h2 class="ser-title">Contactenos</h2>
-                <hr class="botm-line">
-              </div>
-              <div class="col-md-4 col-sm-4">
-                <h3>Información de Contacto</h3>
-                <div class="space"></div>
-                <p><i class="fa fa-map-marker fa-fw pull-left fa-2x"></i>Boyacá,<br> Puerto Boyacá, <br> Cra 2 # 7 - 42 Segundo Piso</p>
-                <div class="space"></div>
-                <p><i class="fa fa-envelope-o fa-fw pull-left fa-2x"></i>gerencia@fundehuella.org</p>
-                <div class="space"></div>
-                <p><i class="fa fa-phone fa-fw pull-left fa-2x"></i>Yully Aleida Nuñez <br>  3155689338 - 3155785021 - 3156560588</p>
-              </div>
-              <div class="col-md-8 col-sm-8 marb20">
-                <div class="contact-info">
-                  <h3 class="cnt-ttl">Deja tu mensaje </h3>
-                  <div class="space"></div>
-                  <div id="sendmessage">Tu mensaje ha sido enviado. Gracias!</div>
-                  <div id="errormessage"></div>
-                  <form action="" method="post" role="form" class="contactForm">
-                    <div class="form-group">
-                      <input type="text" name="name" class="form-control br-radius-zero" id="name" placeholder="Nombre" data-rule="minlen:4" data-msg="Por favor ingrese al menos 4 caracteres" />
-                      <div class="validation"></div>
-                    </div>
-                    <div class="form-group">
-                      <input type="email" class="form-control br-radius-zero" name="email" id="email" placeholder=" Email" data-rule="email" data-msg="Ingrese un email valido" />
-                      <div class="validation"></div>
-                    </div>
-                    <div class="form-group">
-                      <input type="text" class="form-control br-radius-zero" name="subject" id="subject" placeholder="Asunto" data-rule="minlen:4" data-msg="Por favor ingrese al menos 8 caracteres en el Asunto" />
-                      <div class="validation"></div>
-                    </div>
-                    <div class="form-group">
-                      <textarea class="form-control br-radius-zero" name="message" rows="5" data-rule="required" data-msg="Por  favor dejanos tu mensaje" placeholder="Mensaje"></textarea>
-                      <div class="validation"></div>
-                    </div>
-                    <div class="form-action">
-                      <button type="submit" class="btn btn-form">Enviar mensaje</button>
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!--/ contact-->
-        <!--footer-->
-        <footer id="footer">
-          <div class="top-footer">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-8 col-sm-8 marb20">
-                  <div class="ftr-tle">
-                    <h4 class="white no-padding">Siguenos en</h4>
-                  </div>
-                  <div class="info-sec">
-                    <div class="social-links">
-                      <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                      <a href="https://www.facebook.com/people/Fundaci%C3%B3n-Huella-para-el-Futuro/100079001962471/?rdid=YeN8gW0DxFULFPUB&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F19Y266qCnN%2F" class="facebook"><i class="fa fa-facebook"></i></a>
-                      <a href="https://www.instagram.com/funde_huella/?utm_source=qr&igsh=MXVmMnQxNXF4YnZ4dw%3D%3D#" class="instagram"><i class="fa fa-instagram"></i></a>
-                      <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="footer-line">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 text-center">
-            © Copyright All Rights Reserved 2026
-            <div class="credits">
-              <!--
-                All the links in the footer should remain intact.
-                You can delete the links only if you purchased the pro version.
-                Licensing information: https://bootstrapmade.com/license/
-                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Medilab
-              -->
-			  
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <!--/ footer-->
-  <!-- 1. Correción de JQuery. Cargamos jQuery (Solo una vez, usando la versión más reciente) -->
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-   
-   <!-- 2. Correción. Cargamos Bootstrap JS (Solo una vez, desde el servidor seguro) La versión más nueva-->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    
-    <!-- 3. Librerías de terceros y animaciones -->
-     <script src="js/jquery.easing.min.js"></script>
-     <script src="js/jquery.scrollTo.js"></script>
-     <script src="js/wow.min.js"></script>
-     <script src="assets/vendor/purecounter/purecounter.js"></script>
-     
-     <!-- 4. Scripts propios y configuración del cliente -->
-      <script src="js/custom.js"></script>
-      <script src="js/esal.js"></script>
-      <script src="contactform/contactform.js"></script>
-      <!-- <script src="assets/js/main.js"></script> -->
-</body>
-
+    <!-- CSS CAMBIO BOOTSTRAP 5-->
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  </head>
 </html>
+
+<body data-bs-spy="scroll" data-bs-target="#navbarNav">
+  <!-- contenido principal -->
+  <!-- Barra de navegación Bootstrap 5 -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+
+    <!-- LOGO Y NOMBRE -->
+    <a class="navbar-brand fw-bold" href="#">Fundación Huella Para El Futuro</a>
+    
+    <!-- BOTÓN MENÚ PARA MOVILES (CAMBIO A DATA-BS-) -->
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+     </button>
+
+    <!-- MENÚ DE NAVEGACIÓN -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#inicio">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#nosotros">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#documentos">Documentos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Sección de Bienvenida :) -->
+  <!-- El id="inicio" sirve para que el menú principal salte aquí -->
+
+  <header id="inicio" class="hero-section text-white d-flex align-items-center text-center">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <!-- LOGO -->
+          <img src="img/iconfunde.png" alt="Logo Fundehuella" class="img-fluid mb-4 drop-shadow" style="max-height:300px;">
+          
+          <h1 class="display-3 fw-bold mb-4">Bienvenidos a FundeHuella</h1>
+          <p class="lead mb-5 fs-4">Construyendo una sociedad más digna y humana para los niños, niñas, adolecentes y jóvenes.</p>
+
+          <!-- Botones de acción -->
+          <a href="#nosotros" class="btn btn-primary btn-jg px-5 py-3 rounded-pill shadow me-3 fw-bold">Conoce Nuestra Labor</a>
+          <a href="#contacto" class="btn btn-outline-light btn-lg px-5 py-3 rounded-pill shadow fw-bold">Contáctanos</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- SECCIÓN NOSOTROS -->
+    <section id="nosotros" class="py-5 bg-white">
+        <div class="container my-5">
+            <!--Qué hacemos y Por qué lo hacemos -->
+            <div class="row text-center mb-5">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="fw-bold text-primary display-5 mb-3 text-dark">Quiénes Somos</h2>
+                    <p class="lead text-secondary">
+                        Fundación Huella para el Futuro es una entidad privada sin ánimo de lucro, creada en el año 2007. Estamos dedicados a desarrollar programas especiales en pro de los sectores más vulnerables de la población, para promover la construcción de una sociedad más digna y más humana.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Tarjetas de Misión y Visión -->
+            <!-- La clase 'g-4' crea un espacio (gap) uniforme entre las columnas -->
+            <div class="row g-4">
+                <!-- Tarjeta Misión -->
+                <div class="col-md-6">
+                    <div class="card h-100 border-0 shadow-sm bg-light p-4 rounded-4">
+                        <div class="card-body">
+                            <h3 class="fw-bold text-primary text-dark mb-3">
+                              <i class="bi bi-bullseye me-2"></i>Nuestra Misión
+                            </h3>
+                            <p class="card-text text-secondary fs-5">
+                              Promover el desarrollo social de nuestro país por medio de acciones y programas que propicien el mejoramiento de la calidad de vida de las personas más vulnerables, a través de la administración de recursos privados y públicos nacionales e internacionales con quienes trabajamos en alianza.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Tarjeta Visión -->
+                <div class="col-md-6">
+                    <div class="card h-100 border-0 shadow-sm bg-light p-4 rounded-4">
+                        <div class="card-body">
+                            <h3 class="fw-bold text-primary text-dark mb-3">
+                              <i class="bi bi-eye-fill me-2"></i>Nuestra Visión
+                            </h3>
+                            <p class="card-text text-secondary fs-5">
+                              Posicionarnos como una organización líder en el desarrollo de programas y proyectos innovadores y en la promoción de procesos sostenibles con impacto positivo en la comunidad en los que el individuo sea agente de su propio desarrollo y el cambio social que requiere nuestro país.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          <!-- Tarjeta del PAE -->
+           <div class="row g-4 mt-5">
+                <div class="col-md-12">
+                    <div class="card h-100 border-0 shadow-sm bg-light p-4 rounded-4">
+                        <div class="card-body">
+                            <h3 class="fw-bold text-primary mb-3 text-center text-dark">Programa de Alimentación Escolar (PAE)</h3>
+                            <p class="card-text text-secondary fs-5">
+                              La Fundación Huella para el Futuro, en alianza con la Alcaldía Municipal de Puerto Boyacá, ha implementado el Programa de Alimentación Escolar (PAE) para garantizar que los estudiantes de las instituciones educativas del municipio reciban una alimentación adecuada y nutritiva. Este programa busca mejorar la salud y el rendimiento académico de los niños y jóvenes, contribuyendo así a su desarrollo integral.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<div class="container my-5" id="documentos">
+  <h2 class="text-center mb-4 fw-bold text-primary text-dark">Documentos Institucionales</h2>
+  <p class="text-center text-secondary mb-5">Aquí encontrarás los documentos oficiales de la Fundación Huella Para El Futuro.</p>
+  
+  <!-- FILA DE BOOTSTRAP - AQUÍ SE ORGANIZA LAS TARJETAS EN COLUMNAS DE MANERA RESPONSIVA -->
+  <div class="row">
+    <?php
+    $directorio = "esal/doc/";
+
+    // VERIFICACIÓN SI LA CARPETA EXISTE O ESTA EN EL SERVIDOR
+    if (is_dir($directorio)) {
+      // SE ESCANEA LOS ARCHIVOS DENTRO DEL DIRECTORIO.
+      $archivos = scandir($directorio);
+      
+      foreach ($archivos as $archivo) {
+        // FILTRO PARA IGNORAR LOS DIRECTORIOS "." Y ".." PARA SOLO ARCHIVOS PDF 
+        if ($archivo != "." && $archivo != ".." && strtolower(pathinfo($archivo, PATHINFO_EXTENSION)) == "pdf") {
+          // Limpiamos el nombre del archivo para que se vea estético (remplaza guiones/pisos por espacios)
+          $nombre_limpio = ucwords(str_replace(['-', '_'], ' ', pathinfo($archivo, PATHINFO_FILENAME)));
+      ?>
+          <!-- Columna de Bootstrap 5 para cada tarjeta: 1 columna en celular (col-12), 2 en tablets (col-md-6), 3 en escritorios (col-lg-4) -->
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="card h-100 shadow-sm border-0 bg-light">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <div>
+                  <h5 class="card-title fw-bold text-dark mb-2">
+                    <?php echo $nombre_limpio; ?>
+                  </h5>
+                  <p class="card-text text-muted small">
+                    Archivo oficial en formato PDF listo para visualizacicón o descarga.
+                  </p>
+                </div>
+                <a href="<?php echo $directorio . $archivo; ?>" target="_blank" class="btn btn-outline-primary mt-3 w-100">
+                    Abrir PDF 
+                </a>
+              </div>
+            </div>
+          </div>
+      <?php 
+          }
+        }
+    } else {
+      echo '<div class="col-12"><p class="text-center text-danger">La carpeta de documentos no está disponible.>/p></div>';
+    }
+    ?>
+    </div>
+  </div>
+
+  <!-- Sección contacto y ubicación -->
+  <section id="contacto" class="py-5 bg-light">
+      <div class="container my-5">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold text-primary display-5 mb-3 text-dark"> Contacto y Ubicación</h2>
+          <p class="text-secondary lead">Comunícate con nuestros equipo de profesionales, estamos listos para atenderte y escucharte.</p>
+        </div>
+
+        <div class="row justify-content-center text-center g-4">
+          <!-- Ubicación GOOGLE MAPS -->
+          <div class="col-md-4">
+            <div class="p-4 bg-white rounded-4 shadow-sm h-100">
+              <h3 class="fw-bold text-dark mb-3">Ubicación</h3>
+              <p class="text-secondary mb-1">Cra 2 # 7 -42 Segundo Piso</p>
+              <p class="text-secondary fw-bold mb-4">Puerto Boyacá, Boyacá</p>
+              <a href="https://www.google.com/maps/search/?api=1&query=Cra+2+%23+7+-+42+Puerto+Boyaca" target="_blank" class="btn btn-outline-primary rounded-pill px-4 mt-auto">Ver en Google Maps</a>
+            </div>
+          </div>
+        <!--Telefono-->
+        <div class="col-md-4">
+          <div class="p-4 bg-white rounded-4 shadow-sm h-100">
+            <h4 class="fw-bold text-dark mb-3">Teléfonos</h4>
+            <p class="text-secondary mb-1">Atención: Yully Aleida Nuñez</p>
+            <p class="text-secondary mb-1">315 568 9338</p>
+            <p class="text-secondary mb-0 fw-bold">315 578 5021 - 315 656 0588</p>
+            <a href="tel:+573155689338" class="btn btn-outline-primary rounded-pill px-4 mt-auto">Llamar Ahora</a>
+          </div>
+      </div>
+
+      <!-- Correo -->
+      <div class="col-md-4">
+        <div class="p-4 bg-white rounded-4 shadow-sm h-100 d-flex flex-column align-items-center">
+          <h4 class="fw-bold text-dark mb-3">Correo Electrónico</h4>
+          <p class="text-secondary mb-0">fundacionhuella@gmail.com</p>
+          
+          <!-- Botón para abrir directo el correo -->
+          <a href="mailto:fundacionhuella@gmail.org" class="btn btn-outline-primary rounded-pill px-4 mt-auto">Escríbenos un correo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <!-- Footer y las redes sociales (Facebook, Instagram y Tik Tok)-->
+  <footer class="bg-dark text-white text-center py-4">
+    <div class="container text-center text-md-start">
+      <div class="row text-center text-md-start">
+        <!-- Parte 1 -->
+          <div class="col-md4 col-lg-4 col-xl-4 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 fw-bold text-primary">FundeHuella</h5>
+            <p class="text-secondary">Estamos dedicados a desarrollar programas especiales en pro de los sectores más vulnerables de la población, para promover la construcción de una sociedad más digna y más humana.</p>
+          </div>
+        
+        <!-- Parte 2 Enlaces rapidos-->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 fw-bold text-primary">Enlaces</h5>
+          <p><a href="#inicio" class="text-white text-decoration-none">Inicio</a></p>
+          <p><a href="#nosotros" class="text-white text-decoration-none">Nosotros</a></p>
+          <p><a href="#documentos" class="text-white text-decoration-none">Documentos</a></p>
+          <p><a href="#contacto" class="text-white text-decoration-none">Contacto</a></p>
+        </div>
+
+        <!-- Parte 3 Redes Sociales -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 fw-bold text-primary">Síguenos</h5>
+          <p class="text-secondary">Descubre más de nuestra labor diaria en nuestras redes:</p>
+                    
+          <!-- Botones de Redes -->
+          <div class="d-flex justify-content-center justify-content-md-start gap-3 mt-4">
+            <!-- Actualizar cada 3 meses los enlaces -->
+            <a href="https://www.facebook.com/Fundehuellapt" class="btn btn-outline-light btn-floating"><i class="bi bi-facebook fs-5"></i></a>
+            <a href="https://www.instagram.com/funde_huella/" class="btn btn-outline-light btn-floating"><i class="bi bi-instagram fs-5"></i></a>
+            <a href="https://www.tiktok.com/@funde_huellapb?_r=1&_t=ZS-98uLbSGZtP3" class="btn btn-outline-light btn-floating"><i class="bi bi-tiktok fs-5"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+      <p class="mb-0">&copy; 2026 Fundación Huella Para El Futuro. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- JAVA SCRIPT DE BOOTSTRAP 5 (Va con Popper.js para los menús desplegables) JS nativo -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- ZONA DE SCRIPTS PERSONALIZADOS -->
+  <!-- <script src="js/main.js"></script> -->
+</body>
+</html>     
