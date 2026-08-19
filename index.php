@@ -70,7 +70,7 @@
   </header>
 
   <!-- SECCIÓN NOSOTROS -->
-    <section id="nosotros" class="py-5 bg-white">
+    <section id="nosotros" class="py-5">
         <div class="container my-5">
             <!--Qué hacemos y Por qué lo hacemos -->
             <div class="row text-center mb-5">
@@ -80,6 +80,10 @@
                         Fundación Huella para el Futuro es una entidad privada sin ánimo de lucro, creada en el año 2007. Estamos dedicados a desarrollar programas especiales en pro de los sectores más vulnerables de la población, para promover la construcción de una sociedad más digna y más humana.
                     </p>
                 </div>
+            </div>
+
+            <div class="row justify-content-center">
+              <img src="img/bg-banner.jpg" alt="Banner Funde Huella" class="img-fluid mb-4 drop-shadow" style="max-height:600px;">
             </div>
 
             <!-- Tarjetas de Misión y Visión -->
@@ -199,9 +203,8 @@
         <div class="col-md-4">
           <div class="p-4 bg-white rounded-4 shadow-sm h-100">
             <h4 class="fw-bold text-dark mb-3">Teléfonos</h4>
-            <p class="text-secondary mb-1">Atención: Yully Aleida Nuñez</p>
-            <p class="text-secondary mb-1">315 568 9338</p>
-            <p class="text-secondary mb-0 fw-bold">315 578 5021 - 315 656 0588</p>
+            <p class="text-secondary mb-1">Atención: Diana Katalina Marulanda</p>
+            <p class="text-secondary mb-1">320 883 5919</p>
             <a href="tel:+573155689338" class="btn btn-outline-primary rounded-pill px-4 mt-auto">Llamar Ahora</a>
           </div>
       </div>
@@ -210,7 +213,7 @@
       <div class="col-md-4">
         <div class="p-4 bg-white rounded-4 shadow-sm h-100 d-flex flex-column align-items-center">
           <h4 class="fw-bold text-dark mb-3">Correo Electrónico</h4>
-          <p class="text-secondary mb-0">fundacionhuella@gmail.com</p>
+          <p class="text-secondary mb-0">info.fundehuellaboyaca@gmail.com</p>
           
           <!-- Botón para abrir directo el correo -->
           <a href="mailto:fundacionhuella@gmail.org" class="btn btn-outline-primary rounded-pill px-4 mt-auto">Escríbenos un correo</a>
@@ -256,6 +259,13 @@
     </div>
       <p class="mb-0">&copy; 2026 Fundación Huella Para El Futuro. Todos los derechos reservados.</p>
   </footer>
+  
+  <!-- BOTÓN FLOTANTE DE WHATSAPP -->
+    <!-- El enlace incluye el código de Colombia (57) y un mensaje predeterminado -->
+    <a href="https://wa.me/573208835919?text=Hola%20Fundehuella,%20me%20gustaría%20obtener%20más%20información." 
+       class="whatsapp-btn shadow-lg" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-whatsapp"></i>
+    </a>
 
   <!-- JAVA SCRIPT DE BOOTSTRAP 5 (Va con Popper.js para los menús desplegables) JS nativo -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
